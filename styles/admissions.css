@@ -1,0 +1,138 @@
+#hero1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction:column;
+    height: 90vh;
+    background-image: linear-gradient(0deg, 
+    rgba(0,0,0,0.5), 
+    rgba(0,0,0,0.5)) 
+    ,url("../img/admission-hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+#hero1 h1{
+    color: white;
+}
+#hero1 button{
+    font-size: 1.75em;
+}
+
+
+#about-us1 .container{
+    text-align: center;
+    padding: 200px 12px;
+}
+
+#about-us2 .container{
+    text-align: center;
+    padding: 200px 12px;
+}
+
+
+#caracteristicas1 .container{
+    text-align: center;
+    padding: 250px 12px;
+    }
+    
+#caracteristicas1 li{
+        margin: 12px 0px;
+        font-weight: bold;
+        
+    }
+
+
+    @media(min-width:720px){
+
+        #about-us1 .texto{
+            padding: 0px 30px;
+            width: 50%;
+            text-align: initial;
+            max-width: 600px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding-left: 30px;
+        }
+    
+        #about-us1 .container{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        
+        #about-us1 .img-container{
+            background-image: linear-gradient(
+                0deg,
+                rgba(0,0,0,0.5),
+                rgba(0,0,0,0.5)
+            ), url(../img/study.jpg);
+            background-size: cover;
+            background-position: center center;
+            height: 500px;
+            width: 400px;
+        }
+        
+        #about-us1 h2{
+            margin-top: 0px;
+        }
+    
+        #about-us2 .texto{
+            padding: 0px 30px;
+            width: 50%;
+            text-align: initial;
+            max-width: 600px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            padding-left: 30px;
+        }
+    
+    
+        #about-us2 .container{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        
+        #about-us2 .img-container{
+            background-image: linear-gradient(
+                0deg,
+                rgba(0,0,0,0.5),
+                rgba(0,0,0,0.5)
+            ), url(../img/study-2.jpg);
+            background-size: cover;
+            background-position: center center;
+            height: 500px;
+            width: 400px;
+        }
+        
+        #about-us2 h2{
+            margin-top: 0px;
+        }
+    
+    
+    
+        #caracteristicas1 {
+            background-image: url(../img/caracter.jpg);
+            background-repeat: no-repeat;
+            background-size: 700px 500px;
+            background-position: calc(100vh - 700px) 120px;
+        }
+    
+        #caracteristicas1 .container{
+            text-align: initial;
+        }
+    
+        #caracteristicas1 ul{
+            margin-left: 100px;
+        }
+    }
+    
+    @media(min-width:1200px){
+    
+    
+        #caracteristicas1{
+            background-position-x: calc(100vw - 800px);
+        }
+    }

@@ -1,0 +1,181 @@
+#hero1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction:column;
+    height: 90vh;
+    background-image: linear-gradient(0deg, 
+    rgba(0,0,0,0.5), 
+    rgba(0,0,0,0.5)) 
+    ,url("../img/student-hero1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+#hero1 h1{
+    color: white;
+}
+#hero1 button{
+    font-size: 1.75em;
+}
+
+#hero2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction:column;
+    height: 90vh;
+    background-image: linear-gradient(0deg, 
+    rgba(0,0,0,0.5), 
+    rgba(0,0,0,0.5)) 
+    ,url("../img/student-hero2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+#hero2 h1{
+    color: white;
+}
+#hero2 button{
+    font-size: 1.75em;
+}
+
+#hero3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction:column;
+    height: 90vh;
+    background-image: linear-gradient(0deg, 
+    rgba(0,0,0,0.5), 
+    rgba(0,0,0,0.5)) 
+    ,url("../img/student-hero3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+#hero3 h1{
+    color: white;
+}
+#hero3 button{
+    font-size: 1.75em;
+}
+
+#about-us1 .container{
+    text-align: center;
+    padding: 200px 12px;
+}
+
+#about-us2 .container{
+    text-align: center;
+    padding: 200px 12px;
+}
+
+#about-us3 .container{
+    text-align: center;
+    padding: 200px 12px;
+}
+
+@media(min-width:720px){
+
+    #about-us1 .texto{
+        padding: 0px 30px;
+        width: 50%;
+        text-align: initial;
+        max-width: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 30px;
+    }
+
+    #about-us1 .container{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    #about-us1 .img-container{
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        ), url(../img/student-about1.jpg);
+        background-size: cover;
+        background-position: center center;
+        height: 500px;
+        width: 400px;
+    }
+    
+    #about-us1 h2{
+        margin-top: 0px;
+    }
+
+    #about-us2 .texto{
+        padding: 0px 30px;
+        width: 50%;
+        text-align: initial;
+        max-width: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 30px;
+    }
+
+
+    #about-us2 .container{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    #about-us2 .img-container{
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        ), url(../img/student-about2.jpg);
+        background-size: cover;
+        background-position: center center;
+        height: 500px;
+        width: 400px;
+    }
+    
+    #about-us2 h2{
+        margin-top: 0px;
+    }
+
+    #about-us3 .texto{
+        padding: 0px 30px;
+        width: 50%;
+        text-align: initial;
+        max-width: 600px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 30px;
+    }
+
+    #about-us3 .container{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    
+    #about-us3 .img-container{
+        background-image: linear-gradient(
+            0deg,
+            rgba(0,0,0,0.5),
+            rgba(0,0,0,0.5)
+        ), url(../img/student-about3.jpg);
+        background-size: cover;
+        background-position: center center;
+        height: 500px;
+        width: 400px;
+    }
+    
+    #about-us3 h2{
+        margin-top: 0px;
+    }
+
+}

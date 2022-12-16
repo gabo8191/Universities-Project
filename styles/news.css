@@ -1,0 +1,190 @@
+#programs1{
+    background-color: rgb(57, 57, 57);
+    color: white;
+    text-align: center;
+}
+
+#programs1 .container{
+    padding: 100px 0px;
+}
+
+#programs1 h2{
+    margin-top: 0;
+    font-size: 3.2em;
+}
+
+#programs1 p{
+    display: none;
+}
+
+#programs1 .fields{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px;
+    margin: 29px;
+    border-radius: 15px;
+}
+
+#programs1 .fields:first-child{
+    background-image: linear-gradient(0deg, 
+    rgba(0,0,0,0.5), 
+    rgba(0,0,0,0.5)) 
+    ,url("../img/face.jpg");
+}
+
+#programs1 .fields:nth-child(2){
+    background-image: linear-gradient(0deg, 
+    rgba(0,0,0,0.5), 
+    rgba(0,0,0,0.5)) 
+    ,url("../img/jungle.jpg");
+}
+
+#programs1 .fields:nth-child(3){
+    background-image: linear-gradient(0deg, 
+    rgba(0,0,0,0.5), 
+    rgba(0,0,0,0.5)) 
+    ,url("../img/cohete.jpg");
+}
+
+
+#programs2{
+    background-color: rgb(44, 44, 44);
+    color: white;
+    text-align: center;
+}
+
+#programs2 .container{
+    padding: 100px 0px;
+}
+
+#programs2 h2{
+    margin-top: 0;
+    font-size: 3.2em;
+}
+
+#programs2 p{
+    display: none;
+}
+
+#programs2 .fields{
+    background-position: center center;
+    background-size: cover;
+    padding: 50px;
+    margin: 29px;
+    border-radius: 15px;
+}
+
+#programs2 .fields:first-child{
+    background-image: linear-gradient(0deg, 
+    rgba(0,0,0,0.5), 
+    rgba(0,0,0,0.5)) 
+    ,url("../img/carbon.jpg");
+}
+
+#programs2 .fields:nth-child(2){
+    background-image: linear-gradient(0deg, 
+    rgba(0,0,0,0.5), 
+    rgba(0,0,0,0.5)) 
+    ,url("../img/kenia.jpg");
+}
+
+#programs2 .fields:nth-child(3){
+    background-image: linear-gradient(0deg, 
+    rgba(0,0,0,0.5), 
+    rgba(0,0,0,0.5)) 
+    ,url("../img/laser.jpg");
+}
+
+
+@media(min-width:720px){
+
+    #programs1 .program1{
+        display: flex;
+        justify-content: center;
+    }
+
+    #programs1 p{
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    #programs1 h3{
+        margin-top: 0;
+    }
+
+    #programs1 .fields{
+        padding: 50px;
+        background-size: 100% 150px;
+        background-repeat: no-repeat;
+        background-position-y: 0;
+        background-color: rgb(50,50,50,0.5);
+        box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    }
+
+    #programs1 .fields:first-child{
+        background-image: linear-gradient(0deg, 
+        rgba(0,0,0,0.5), 
+        rgba(0,0,0,0.5)) 
+        ,url("../img/face-crop.jpg");
+    }
+    
+    #programs1 .fields:nth-child(2){
+        background-image: linear-gradient(0deg, 
+        rgba(0,0,0,0.5), 
+        rgba(0,0,0,0.5)) 
+        ,url("../img/jungle-crop.jpg");
+    }
+    
+    #programs1 .fields:nth-child(3){
+        background-image: linear-gradient(0deg, 
+        rgba(0,0,0,0.5), 
+        rgba(0,0,0,0.5)) 
+        ,url("../img/cohete-crop.jpg");
+    }
+
+
+    #programs2 .program1{
+        display: flex;
+        justify-content: center;
+    }
+
+    #programs2 p{
+        display: block;
+        margin-bottom: 30px;
+    }
+
+    #programs2 h3{
+        margin-top: 0;
+    }
+
+    #programs2 .fields{
+        padding: 50px;
+        background-size: 100% 150px;
+        background-repeat: no-repeat;
+        background-position-y: 0;
+        background-color: rgb(50,50,50,0.5);
+        box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    }
+
+    #programs2 .fields:first-child{
+        background-image: linear-gradient(0deg, 
+        rgba(0,0,0,0.5), 
+        rgba(0,0,0,0.5)) 
+        ,url("../img/carbon-crop.jpg");
+    }
+    
+    #programs2 .fields:nth-child(2){
+        background-image: linear-gradient(0deg, 
+        rgba(0,0,0,0.5), 
+        rgba(0,0,0,0.5)) 
+        ,url("../img/kenia-crop.jpg");
+    }
+    
+    #programs2 .fields:nth-child(3){
+        background-image: linear-gradient(0deg, 
+        rgba(0,0,0,0.5), 
+        rgba(0,0,0,0.5)) 
+        ,url("../img/laser-crop.jpg");
+    }
+
+}
